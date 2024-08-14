@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 加入字體鏈接：*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset  */
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.img{
+    height: auto;
+    vertical-align: middle;
+} 
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: "Bruno Ace",serif;
+    line-height: 1.5;
+    font-size: 24px;
+    background-color: #000;
+    color: white;
+}
+.d-flex{
+    display: flex;
+    
+}
+.fdc{
+    flex-direction: column;
+}
+.jcb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.mt-28{
+    margin-top: 28px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mt-36{
+    margin-top: 36px;
+}
+.mt-160{
+    margin-top: 160px;
+}
+.mt-206{
+    margin-top: 206px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.mb-160{
+    margin-right: 24px;
+}
+.mla{
+    margin-left: auto;
+}
+
+
+
+
+/* 區塊 */
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.header{
+    height: 128px;
+    font-size: 16px;
+}
+.header ul{
+    flex-wrap: nowrap; 
+    width: 100%;
+}
+.people{
+    width: 636px;
+}
+.banner{
+    font-size: 64px;
+}
+body h1{
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: end;
+}
+.button{
+    font-size: 16px;
+    background: white;
+    color: #000;
+    height: 48px;
+    width: 190px;
+    padding: 12px 24px;
+    border-radius: 50px 50px 50px 50px;
+}
+.button2{
+    font-size: 16px;
+    background: black;
+    color: white;
+    height: 48px;
+    width: 185px;
+    padding: 12px 24px;
+    border-radius: 50px 50px 50px 50px;
+}
+.button img{
+    height: 100%;
+}
+
+.background-image{
+    background-image: url('img/background-img.png'); /* 背景图片 */
+    background-size: cover; /* 背景图片将完全覆盖容器 */
+    background-position: center; /* 背景图片居中显示 */
+    height: 920px;
+}
+body h2{
+    font-size: 52px;
+}
+.intro-text{
+    width: 526px;
+}
+.intro-pic{
+    width: 746px;
+}
+.about{
+    background: white;
+    color: black;
+    height: 740px;
+}
+.card-list{
+    width: 636px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 306px;
+    padding: 24px;
+    border: 1px solid #ccc; /* 灰色的边框 */
+    border-radius: 8px; /* 卡片的圆角 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果，增加立体感 */
+}
+body .about-p{
+    font-size: 20px;
+}
+body .about-card-text{
+    font-size: 16px;
+}
+body h3{
+    font-size: 64px;
+}
+.contact{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.socail{
+    width: 526px;
+}
+
+body h4{
+    font-size: 64px;
+}
+
+.about-text{
+    width: 526px;
+}
+
+.projects{
+    background-color: white;
+    color: black;
+    padding-top: 160px;
+    padding: 160px;
+}
+
+body h5{
+    font-size: 64px;
+    width: 746px;
+}
+
+body .projects p{
+    font-size: 16px;
+}
+.footer{
+    padding: 40px;
+    text-align: center;
+}
